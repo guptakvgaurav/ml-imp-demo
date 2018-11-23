@@ -55,7 +55,7 @@ export const SampleResult = [
         'head_count': 5,
         'demographics': [{
             'id': 'person_1',
-            'gender': null,
+            'gender': null,  // not able to detect if it's a boy or girl, probably back camera, blurr images etc. are possible reasons.
             'age': null
         }, {
             'id': 'person_2',
